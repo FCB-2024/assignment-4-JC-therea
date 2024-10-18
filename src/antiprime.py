@@ -34,9 +34,10 @@ def main(inputVal) :
 	else:
 		return("not anti-prime")
 
+import sys
+x = sys.argv[1]
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
-	import sys
 
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
@@ -44,4 +45,4 @@ if __name__ == "__main__" :
 	## WHERE THE FIRST ARGUMENT IS A POSITIVE INTEGER NUMBER FOR WHICH
 	## YOU WANT TO FIGURE OUT WHETHER IS ANTI-PRIME OR NOT
 	## SOUGHT DINUCLEOTIDE.
-	print(main(sys.argv[1]))
+	print(main(x))
