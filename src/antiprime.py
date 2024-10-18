@@ -35,7 +35,7 @@ def main(inputVal) :
 		return("not anti-prime")
 
 import sys
-x = sys.argv[1]
+x = int(sys.argv[1])
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
 
